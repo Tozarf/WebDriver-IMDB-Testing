@@ -3,7 +3,13 @@ class DarkKnightPage {
         return $("//span[contains(text(),'Play trailer')]");
     }
     get videoContainer() {
-        return $("//video[@class='jw-video jw-reset']");
+        return $(
+            '//*[@id="__next"]/main/div/section[1]/section/div[3]/section/section/div[3]/div[1]/div/div[2]/div[2]/a/div[2]'
+        );
+    }
+
+    get timeLineController() {
+        return $("//div[contains(text(),'00:01')]");
     }
 
     async clickPlayTrailerButton() {

@@ -1,0 +1,62 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1642617769514' stop='1642617800932'>
+    <name>Verify the correct display of The Dark Knight</name>
+    <title>Verify the correct display of The Dark Knight</title>
+    <test-cases>
+        <test-case start='1642617769514' status='broken' stop='1642617800931'>
+            <name>Validate that the jwplayer is displayed and the state is 'idle' </name>
+            <title>Validate that the jwplayer is displayed and the state is 'idle' </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>stale element reference: stale element not found
+                  (Session info: chrome=97.0.4692.71)</message>
+                <stack-trace>0   chromedriver                        0x00000001027a2e69 chromedriver + 5160553
+                1   chromedriver                        0x000000010272d593 chromedriver + 4679059
+                2   chromedriver                        0x00000001022e12c8 chromedriver + 172744
+                3   chromedriver                        0x00000001022e4141 chromedriver + 184641
+                4   chromedriver                        0x00000001022e3f61 chromedriver + 184161
+                5   chromedriver                        0x00000001022e4b0d chromedriver + 187149
+                6   chromedriver                        0x0000000102347cf3 chromedriver + 593139
+                7   chromedriver                        0x0000000102334312 chromedriver + 512786
+                8   chromedriver                        0x00000001023470ab chromedriver + 589995
+                9   chromedriver                        0x0000000102334623 chromedriver + 513571
+                10  chromedriver                        0x0000000102309dce chromedriver + 339406
+                11  chromedriver                        0x000000010230b105 chromedriver + 344325
+                12  chromedriver                        0x000000010275e23e chromedriver + 4878910
+                13  chromedriver                        0x0000000102775d17 chromedriver + 4975895
+                14  chromedriver                        0x000000010277ba3f chromedriver + 4999743
+                15  chromedriver                        0x000000010277661a chromedriver + 4978202
+                16  chromedriver                        0x0000000102752bb1 chromedriver + 4832177
+                17  chromedriver                        0x0000000102792fd8 chromedriver + 5095384
+                18  chromedriver                        0x0000000102793161 chromedriver + 5095777
+                19  chromedriver                        0x00000001027aa2a8 chromedriver + 5190312
+                20  libsystem_pthread.dylib             0x00007ff80cbee514 _pthread_start + 125
+                21  libsystem_pthread.dylib             0x00007ff80cbea02f thread_start + 15
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1642617800931' status='passed' stop='1642617800932'>
+            <name>Validate that the jwplayer is displayed and the state is 'playing'</name>
+            <title>Validate that the jwplayer is displayed and the state is 'playing'</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

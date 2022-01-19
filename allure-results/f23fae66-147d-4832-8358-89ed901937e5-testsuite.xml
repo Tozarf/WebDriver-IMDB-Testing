@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1642618609296' stop='1642618653673'>
+    <name>Verify the correct display of The Dark Knight</name>
+    <title>Verify the correct display of The Dark Knight</title>
+    <test-cases>
+        <test-case start='1642618609296' status='passed' stop='1642618634871'>
+            <name>Validate that the jwplayer is displayed and the state is 'idle' </name>
+            <title>Validate that the jwplayer is displayed and the state is 'idle' </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1642618634871' status='failed' stop='1642618653672'>
+            <name>Validate that the jwplayer is displayed and the state is 'playing'</name>
+            <title>Validate that the jwplayer is displayed and the state is 'playing'</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expect(received).toEqual(expected) // deep equality
+                
+                Expected: "Playing"
+                Received: "playing"</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: "Playing"
+                Received: "playing"
+                    at Context.&lt;anonymous> (/Users/faustojavierzarumaarias/Documents/ROCKSTARS QA/IMDBExercise/test/specs/DarkKnightVideoPlayer.js:30:28)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
