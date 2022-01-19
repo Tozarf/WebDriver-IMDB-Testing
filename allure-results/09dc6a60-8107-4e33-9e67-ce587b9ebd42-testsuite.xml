@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1642567325425' stop='1642567372607'>
+    <name>Verify the correct display of The Dark Knight</name>
+    <title>Verify the correct display of The Dark Knight</title>
+    <test-cases>
+        <test-case start='1642567325426' status='passed' stop='1642567357652'>
+            <name>Validate that the jwplayer is displayed and the state is 'idle' </name>
+            <title>Validate that the jwplayer is displayed and the state is 'idle' </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1642567357653' status='passed' stop='1642567372607'>
+            <name>Validate that the jwplayer is displayed and the state is 'playing'</name>
+            <title>Validate that the jwplayer is displayed and the state is 'playing'</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
