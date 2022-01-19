@@ -17,7 +17,7 @@ describe("Verify the correct display of The Dark Knight", () => {
             return jwplayer().getState();
         });
 
-        expect(playerState).toEqual("buffering");
+        await expect(playerState).toEqual("buffering");
     });
     it("Validate that the jwplayer is displayed and the state is 'playing'", async () => {
         await homePage.open();
@@ -27,6 +27,6 @@ describe("Verify the correct display of The Dark Knight", () => {
         const playerSate = await browser.execute(() => {
             return jwplayer().getState();
         });
-        expect(playerSate).toEqual("playing");
+        await expect(playerSate).toEqual("playing");
     });
 });
