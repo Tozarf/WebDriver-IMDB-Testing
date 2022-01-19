@@ -1,0 +1,62 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1642615065308' stop='1642615089648'>
+    <name>Verify the correct display of The Dark Knight</name>
+    <title>Verify the correct display of The Dark Knight</title>
+    <test-cases>
+        <test-case start='1642615065309' status='broken' stop='1642615089647'>
+            <name>Validate that the jwplayer is displayed and the state is 'idle' </name>
+            <title>Validate that the jwplayer is displayed and the state is 'idle' </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>javascript error: jwplayer is not defined
+                  (Session info: chrome=97.0.4692.71)</message>
+                <stack-trace>0   chromedriver                        0x0000000104f8ce69 chromedriver + 5160553
+                1   chromedriver                        0x0000000104f17593 chromedriver + 4679059
+                2   chromedriver                        0x0000000104acb2c8 chromedriver + 172744
+                3   chromedriver                        0x0000000104ace141 chromedriver + 184641
+                4   chromedriver                        0x0000000104acdf61 chromedriver + 184161
+                5   chromedriver                        0x0000000104aceb0d chromedriver + 187149
+                6   chromedriver                        0x0000000104b31cf3 chromedriver + 593139
+                7   chromedriver                        0x0000000104b1e312 chromedriver + 512786
+                8   chromedriver                        0x0000000104b310ab chromedriver + 589995
+                9   chromedriver                        0x0000000104b1e623 chromedriver + 513571
+                10  chromedriver                        0x0000000104af3dce chromedriver + 339406
+                11  chromedriver                        0x0000000104af5105 chromedriver + 344325
+                12  chromedriver                        0x0000000104f4823e chromedriver + 4878910
+                13  chromedriver                        0x0000000104f5fd17 chromedriver + 4975895
+                14  chromedriver                        0x0000000104f65a3f chromedriver + 4999743
+                15  chromedriver                        0x0000000104f6061a chromedriver + 4978202
+                16  chromedriver                        0x0000000104f3cbb1 chromedriver + 4832177
+                17  chromedriver                        0x0000000104f7cfd8 chromedriver + 5095384
+                18  chromedriver                        0x0000000104f7d161 chromedriver + 5095777
+                19  chromedriver                        0x0000000104f942a8 chromedriver + 5190312
+                20  libsystem_pthread.dylib             0x00007ff80cbee514 _pthread_start + 125
+                21  libsystem_pthread.dylib             0x00007ff80cbea02f thread_start + 15
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1642615089647' status='passed' stop='1642615089647'>
+            <name>Validate that the jwplayer is displayed and the state is 'playing'</name>
+            <title>Validate that the jwplayer is displayed and the state is 'playing'</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

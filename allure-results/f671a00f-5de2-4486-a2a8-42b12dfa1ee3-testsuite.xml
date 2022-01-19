@@ -1,0 +1,89 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1642614646839' stop='1642614689954'>
+    <name>Verify the correct display of The Dark Knight</name>
+    <title>Verify the correct display of The Dark Knight</title>
+    <test-cases>
+        <test-case start='1642614646840' status='broken' stop='1642614669848'>
+            <name>Validate that the jwplayer is displayed and the state is 'idle' </name>
+            <title>Validate that the jwplayer is displayed and the state is 'idle' </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=97.0.4692.71)</message>
+                <stack-trace>0   chromedriver                        0x0000000100594e69 chromedriver + 5160553
+                1   chromedriver                        0x000000010051f593 chromedriver + 4679059
+                2   chromedriver                        0x00000001000d317f chromedriver + 172415
+                3   chromedriver                        0x0000000100109c37 chromedriver + 396343
+                4   chromedriver                        0x00000001000fdd19 chromedriver + 347417
+                5   chromedriver                        0x0000000100126362 chromedriver + 512866
+                6   chromedriver                        0x00000001000fd5b5 chromedriver + 345525
+                7   chromedriver                        0x000000010012667e chromedriver + 513662
+                8   chromedriver                        0x00000001001390ab chromedriver + 589995
+                9   chromedriver                        0x0000000100126623 chromedriver + 513571
+                10  chromedriver                        0x00000001000fbdce chromedriver + 339406
+                11  chromedriver                        0x00000001000fd105 chromedriver + 344325
+                12  chromedriver                        0x000000010055023e chromedriver + 4878910
+                13  chromedriver                        0x0000000100567d17 chromedriver + 4975895
+                14  chromedriver                        0x000000010056da3f chromedriver + 4999743
+                15  chromedriver                        0x000000010056861a chromedriver + 4978202
+                16  chromedriver                        0x0000000100544bb1 chromedriver + 4832177
+                17  chromedriver                        0x0000000100584fd8 chromedriver + 5095384
+                18  chromedriver                        0x0000000100585161 chromedriver + 5095777
+                19  chromedriver                        0x000000010059c2a8 chromedriver + 5190312
+                20  libsystem_pthread.dylib             0x00007ff80cbee514 _pthread_start + 125
+                21  libsystem_pthread.dylib             0x00007ff80cbea02f thread_start + 15
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1642614669848' status='broken' stop='1642614689954'>
+            <name>Validate that the jwplayer is displayed and the state is 'playing'</name>
+            <title>Validate that the jwplayer is displayed and the state is 'playing'</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=97.0.4692.71)</message>
+                <stack-trace>0   chromedriver                        0x0000000100594e69 chromedriver + 5160553
+                1   chromedriver                        0x000000010051f593 chromedriver + 4679059
+                2   chromedriver                        0x00000001000d317f chromedriver + 172415
+                3   chromedriver                        0x0000000100109c37 chromedriver + 396343
+                4   chromedriver                        0x00000001000fdd19 chromedriver + 347417
+                5   chromedriver                        0x0000000100126362 chromedriver + 512866
+                6   chromedriver                        0x00000001000fd5b5 chromedriver + 345525
+                7   chromedriver                        0x000000010012667e chromedriver + 513662
+                8   chromedriver                        0x00000001001390ab chromedriver + 589995
+                9   chromedriver                        0x0000000100126623 chromedriver + 513571
+                10  chromedriver                        0x00000001000fbdce chromedriver + 339406
+                11  chromedriver                        0x00000001000fd105 chromedriver + 344325
+                12  chromedriver                        0x000000010055023e chromedriver + 4878910
+                13  chromedriver                        0x0000000100567d17 chromedriver + 4975895
+                14  chromedriver                        0x000000010056da3f chromedriver + 4999743
+                15  chromedriver                        0x000000010056861a chromedriver + 4978202
+                16  chromedriver                        0x0000000100544bb1 chromedriver + 4832177
+                17  chromedriver                        0x0000000100584fd8 chromedriver + 5095384
+                18  chromedriver                        0x0000000100585161 chromedriver + 5095777
+                19  chromedriver                        0x000000010059c2a8 chromedriver + 5190312
+                20  libsystem_pthread.dylib             0x00007ff80cbee514 _pthread_start + 125
+                21  libsystem_pthread.dylib             0x00007ff80cbea02f thread_start + 15
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

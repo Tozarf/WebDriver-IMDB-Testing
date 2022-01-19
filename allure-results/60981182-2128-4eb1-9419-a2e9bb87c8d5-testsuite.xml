@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1642613752729' stop='1642613777153'>
+    <name>Verify the correct display of the top 250 page</name>
+    <title>Verify the correct display of the top 250 page</title>
+    <test-cases>
+        <test-case start='1642613752729' status='passed' stop='1642613777152'>
+            <name>Verify Godfather is in 2nd place with a 9.1 rating</name>
+            <title>Verify Godfather is in 2nd place with a 9.1 rating</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
